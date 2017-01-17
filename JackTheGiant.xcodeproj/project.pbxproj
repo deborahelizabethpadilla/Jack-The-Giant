@@ -50,6 +50,7 @@
 		50AAE6A91E2ECAB700C9A353 /* Options Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AAE6881E2ECAB600C9A353 /* Options Button.png */; };
 		50AAE6AA1E2ECAB700C9A353 /* Quit Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AAE6891E2ECAB600C9A353 /* Quit Button.png */; };
 		50AAE6AB1E2ECAB700C9A353 /* Start Game Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AAE68A1E2ECAB600C9A353 /* Start Game Button.png */; };
+		50AAE6AE1E2ECB8F00C9A353 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 50AAE6AD1E2ECB8F00C9A353 /* GameplayScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,7 @@
 		50AAE6881E2ECAB600C9A353 /* Options Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Options Button.png"; sourceTree = "<group>"; };
 		50AAE6891E2ECAB600C9A353 /* Quit Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quit Button.png"; sourceTree = "<group>"; };
 		50AAE68A1E2ECAB600C9A353 /* Start Game Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Game Button.png"; sourceTree = "<group>"; };
+		50AAE6AD1E2ECB8F00C9A353 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +151,9 @@
 		50AAE61F1E2EC92D00C9A353 = {
 			isa = PBXGroup;
 			children = (
-				50AAE65F1E2ECA5200C9A353 /* Assets */,
 				50AAE62A1E2EC92D00C9A353 /* JackTheGiant */,
+				50AAE6AC1E2ECB5700C9A353 /* Scenes */,
+				50AAE65F1E2ECA5200C9A353 /* Assets */,
 				50AAE6451E2EC92D00C9A353 /* JackTheGiantTests */,
 				50AAE6501E2EC92D00C9A353 /* JackTheGiantUITests */,
 				50AAE6291E2EC92D00C9A353 /* Products */,
@@ -321,6 +324,14 @@
 			path = "3 - Main Menu Buttons";
 			sourceTree = "<group>";
 		};
+		50AAE6AC1E2ECB5700C9A353 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				50AAE6AD1E2ECB8F00C9A353 /* GameplayScene.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -453,6 +464,7 @@
 				50AAE6951E2ECAB600C9A353 /* blow.ttf in Resources */,
 				50AAE6991E2ECAB600C9A353 /* Life Sound.wav in Resources */,
 				50AAE6371E2EC92D00C9A353 /* Main.storyboard in Resources */,
+				50AAE6AE1E2ECB8F00C9A353 /* GameplayScene.sks in Resources */,
 				50AAE6921E2ECAB600C9A353 /* Cloud 2.png in Resources */,
 				50AAE69C1E2ECAB700C9A353 /* Menu BG.png in Resources */,
 				50AAE6A81E2ECAB700C9A353 /* Music On Button.png in Resources */,
