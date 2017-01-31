@@ -51,6 +51,7 @@
 		50AAE6AA1E2ECAB700C9A353 /* Quit Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AAE6891E2ECAB600C9A353 /* Quit Button.png */; };
 		50AAE6AB1E2ECAB700C9A353 /* Start Game Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AAE68A1E2ECAB600C9A353 /* Start Game Button.png */; };
 		50AAE6AE1E2ECB8F00C9A353 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 50AAE6AD1E2ECB8F00C9A353 /* GameplayScene.sks */; };
+		50AAE6B21E2ED4DE00C9A353 /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAE6B11E2ED4DE00C9A353 /* GameplayScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +122,7 @@
 		50AAE6891E2ECAB600C9A353 /* Quit Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quit Button.png"; sourceTree = "<group>"; };
 		50AAE68A1E2ECAB600C9A353 /* Start Game Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Game Button.png"; sourceTree = "<group>"; };
 		50AAE6AD1E2ECB8F00C9A353 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
+		50AAE6B11E2ED4DE00C9A353 /* GameplayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				50AAE62A1E2EC92D00C9A353 /* JackTheGiant */,
+				50AAE6AF1E2ED4A100C9A353 /* Game Classes */,
 				50AAE6AC1E2ECB5700C9A353 /* Scenes */,
 				50AAE65F1E2ECA5200C9A353 /* Assets */,
 				50AAE6451E2EC92D00C9A353 /* JackTheGiantTests */,
@@ -332,6 +335,22 @@
 			name = Scenes;
 			sourceTree = "<group>";
 		};
+		50AAE6AF1E2ED4A100C9A353 /* Game Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50AAE6B01E2ED4BC00C9A353 /* Scene Classes */,
+			);
+			name = "Game Classes";
+			sourceTree = "<group>";
+		};
+		50AAE6B01E2ED4BC00C9A353 /* Scene Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50AAE6B11E2ED4DE00C9A353 /* GameplayScene.swift */,
+			);
+			name = "Scene Classes";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -505,6 +524,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50AAE6B21E2ED4DE00C9A353 /* GameplayScene.swift in Sources */,
 				50AAE6321E2EC92D00C9A353 /* GameScene.swift in Sources */,
 				50AAE6341E2EC92D00C9A353 /* GameViewController.swift in Sources */,
 				50AAE62C1E2EC92D00C9A353 /* AppDelegate.swift in Sources */,
