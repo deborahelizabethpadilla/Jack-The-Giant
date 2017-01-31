@@ -13,5 +13,9 @@ class GameplayScene: SKScene {
     override func didMove(to view: SKView) {
         print("The Scene Was Loaded");
     }
+    
+    override func update(_ currentTime: TimeInterval) {
+        
+    }
 }
 
