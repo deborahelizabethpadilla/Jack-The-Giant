@@ -25,6 +25,14 @@ class Player: SKSpriteNode {
         animatePlayerAction = SKAction.animate(withNormalTextures: playerAnimation, timePerFrame: 0.08, resize: true, restore: false);
     }
     
+    func animatePlayer() {
+        self.run(SKAction.repeatForever(animatePlayerAction), withKey: "Animate");
+    }
+    
+    func stopPlayerAnimation() {
+        self.removeAction(forKey: "Animate");
+    }
+    
     func movePlayer(moveLeft: Bool) {
         
         if moveLeft {
