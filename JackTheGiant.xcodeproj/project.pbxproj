@@ -61,6 +61,7 @@
 		50F6B8601E412A0100D72125 /* Player 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6B8581E412A0100D72125 /* Player 7.png */; };
 		50F6B8611E412A0100D72125 /* Player 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6B8591E412A0100D72125 /* Player 8.png */; };
 		50F6B8641E412C2100D72125 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6B8631E412C2100D72125 /* Player.swift */; };
+		50F6B8661E4132F600D72125 /* Players.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 50F6B8651E4132F600D72125 /* Players.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +142,7 @@
 		50F6B8581E412A0100D72125 /* Player 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 7.png"; sourceTree = "<group>"; };
 		50F6B8591E412A0100D72125 /* Player 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 8.png"; sourceTree = "<group>"; };
 		50F6B8631E412C2100D72125 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		50F6B8651E4132F600D72125 /* Players.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Players.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,13 +230,14 @@
 		50AAE65F1E2ECA5200C9A353 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				50F6B8651E4132F600D72125 /* Players.atlas */,
+				50F6B8511E4129E500D72125 /* Player */,
 				50AAE6601E2ECAB600C9A353 /* 1 - Pause Panel And Buttons */,
 				50AAE6651E2ECAB600C9A353 /* 2 - Collectables */,
 				50AAE6681E2ECAB600C9A353 /* 4 - Clouds */,
 				50AAE66D1E2ECAB600C9A353 /* 5 - Fonts */,
 				50AAE66F1E2ECAB600C9A353 /* 6 - Music */,
 				50AAE6741E2ECAB600C9A353 /* 7 - Backgrounds */,
-				50F6B8511E4129E500D72125 /* 9 - Players */,
 				50AAE6791E2ECAB600C9A353 /* 8 - Buttons */,
 			);
 			name = Assets;
@@ -371,7 +374,7 @@
 			name = "Scene Classes";
 			sourceTree = "<group>";
 		};
-		50F6B8511E4129E500D72125 /* 9 - Players */ = {
+		50F6B8511E4129E500D72125 /* Player */ = {
 			isa = PBXGroup;
 			children = (
 				50F6B8521E412A0100D72125 /* Player 1.png */,
@@ -383,7 +386,7 @@
 				50F6B8581E412A0100D72125 /* Player 7.png */,
 				50F6B8591E412A0100D72125 /* Player 8.png */,
 			);
-			name = "9 - Players";
+			name = Player;
 			sourceTree = "<group>";
 		};
 		50F6B8621E412C0100D72125 /* Player Class */ = {
@@ -504,6 +507,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F6B8661E4132F600D72125 /* Players.atlas in Resources */,
 				50AAE6AB1E2ECAB700C9A353 /* Start Game Button.png in Resources */,
 				50F6B8601E412A0100D72125 /* Player 7.png in Resources */,
 				50AAE68B1E2ECAB600C9A353 /* Pause Menu.png in Resources */,
