@@ -12,6 +12,10 @@ class GameplayScene: SKScene {
     
     var mainCamera: SKCameraNode?
     
+    var bg1: BGClass?
+    var bg2: BGClass?
+    var bg3: BGClass?
+    
     var player: Player?;
     
     var canMove = false;
@@ -58,6 +62,14 @@ class GameplayScene: SKScene {
         player?.initalizePlayerAndAnimations();
         
         mainCamera = self.childNode(withName: "Main Camera") as! SKCameraNode?;
+        
+        getBackgrounds();
+    }
+    
+    func getBackgrounds() {
+        bg1 = self.childNode(withName: "BG 1") as! BGClass!;
+        bg2 = self.childNode(withName: "BG 2") as! BGClass!;
+        bg3 = self.childNode(withName: "BG 3") as! BGClass!
     }
     
     func managePlayer() {
@@ -68,6 +80,12 @@ class GameplayScene: SKScene {
     
     func moveCamera() {
         self.mainCamera?.position.y -= 3;
+    }
+    
+    func manageBackgrounds() {
+        bg1?.moveeBG(camera: mainCamera!);
+        bg2?.moveeBG(camera: mainCamera!);
+        bg3?.moveeBG(camera: mainCamera!);
     }
 }
 

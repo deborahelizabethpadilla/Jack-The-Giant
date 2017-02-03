@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		509A36391E44E68E00B9238D /* BG Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A36381E44E68E00B9238D /* BG Class.swift */; };
 		50AAE62C1E2EC92D00C9A353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AAE62B1E2EC92D00C9A353 /* AppDelegate.swift */; };
 		50AAE62E1E2EC92D00C9A353 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 50AAE62D1E2EC92D00C9A353 /* GameScene.sks */; };
 		50AAE6301E2EC92D00C9A353 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 50AAE62F1E2EC92D00C9A353 /* Actions.sks */; };
@@ -82,6 +83,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		509A36381E44E68E00B9238D /* BG Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BG Class.swift"; sourceTree = "<group>"; };
 		50AAE6281E2EC92D00C9A353 /* JackTheGiant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JackTheGiant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AAE62B1E2EC92D00C9A353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50AAE62D1E2EC92D00C9A353 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -170,6 +172,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		509A36371E44E65100B9238D /* Background Class */ = {
+			isa = PBXGroup;
+			children = (
+				509A36381E44E68E00B9238D /* BG Class.swift */,
+			);
+			name = "Background Class";
+			sourceTree = "<group>";
+		};
 		50AAE61F1E2EC92D00C9A353 = {
 			isa = PBXGroup;
 			children = (
@@ -360,6 +370,7 @@
 		50AAE6AF1E2ED4A100C9A353 /* Game Classes */ = {
 			isa = PBXGroup;
 			children = (
+				509A36371E44E65100B9238D /* Background Class */,
 				50F6B8621E412C0100D72125 /* Player Class */,
 				50AAE6B01E2ED4BC00C9A353 /* Scene Classes */,
 			);
@@ -579,6 +590,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509A36391E44E68E00B9238D /* BG Class.swift in Sources */,
 				50AAE6B21E2ED4DE00C9A353 /* GameplayScene.swift in Sources */,
 				50AAE6321E2EC92D00C9A353 /* GameScene.swift in Sources */,
 				50AAE6341E2EC92D00C9A353 /* GameViewController.swift in Sources */,
