@@ -15,6 +15,7 @@ This application was created as a replication of the iOS game, Jack The Giant. T
 * Game Scenes
 * SKSpriteNodes
 * SKActions
+* Swift
 * Image Assests
 * Physics Body
 * Camera
