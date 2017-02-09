@@ -1,5 +1,7 @@
 # Jack-The-Giant
 
+**Summary:**
+
 This application was created as a replication of the iOS game, Jack The Giant. This project firmed up my knowledge on creating a SpriteKit application that allows users to play the game, Jack The Giant.
 
 **The application offers the following features:**
