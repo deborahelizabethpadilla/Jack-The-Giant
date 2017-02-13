@@ -1,4 +1,4 @@
-# Jack-The-Giant
+# Jack The Giant
 
 **Summary:**
 
